@@ -1,0 +1,51 @@
+/* Fill CSS here */
+
+h1 {
+  text-align: center;
+  color: blue;
+  text-decoration: underline;
+}
+
+form {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  width: 30%;
+  height: auto;
+  padding: 20px;
+}
+
+input {
+  width: 90%;
+  /* height: 90%; */
+  margin-bottom: 10px;
+}
+ select{
+    margin-bottom: 10px;
+ }
+div {
+  display: flex;
+  justify-content: center;
+  /* text-align: center; */
+}
+
+th {
+  justify-content: space-between;
+  background-color: blue;
+  color: azure;
+}
+table{
+    width: 100%;
+    margin-left: 20px;
+}
+
+tr{
+    height: fit-content;
+    text-align: center;
+    border-bottom: 2px solid gray;
+}
+
+input[type="submit"]{
+    background-color: blue;
+    border-radius: 10px;
+    color: aliceblue;
+}
+
